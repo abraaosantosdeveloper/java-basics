@@ -11,7 +11,7 @@ public class MinhaClasse {
         
         System.out.print(frase + " Eu sou " + NOME + ", e tenho " 
         + idade + " anos. \nTrabalho como " + profissao
-        + "Meu salário inicial foi de " + salario + ".\nA inicial do meu nome é: " + letra);
+        + ". Meu salário inicial foi de " + salario + ".\nA inicial do meu nome é: " + letra);
 
     }
 }
