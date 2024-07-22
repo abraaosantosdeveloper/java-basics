@@ -9,7 +9,9 @@ public class MinhaClasse {
         final String NOME = "Abraão Santos";
         String profissao = "Desenvolvedor Java";
         
-        System.out.print(frase + " Eu sou " + NOME + ", e tenho " + idade + " anos. \nTrabalho como " + profissao);
+        System.out.print(frase + " Eu sou " + NOME + ", e tenho " 
+        + idade + " anos. \nTrabalho como " + profissao
+        + "Meu salário inicial foi de " + salario + ".\nA inicial do meu nome é: " + letra);
 
     }
 }
