@@ -6,16 +6,15 @@ public class ClasseNomeCompleto {
     public static void main(String[] args) {
         String nome = "Abraao";
         String sobrenome = "Santos";
-        String nomeCompleto = concatenarNomes(nome, sobrenome);
-        String nomeCompleto2 = concatenarNomes2(nome, sobrenome);
+        final String CPF = "709.595.704-54";
 
+        String nomeCompleto = concatenarNomeCompleto(nome, sobrenome, CPF);
         System.out.println(nomeCompleto);
-        System.out.println(nomeCompleto2);
     }
-    public static String concatenarNomes(String nome, String sobrenome){
-        return "Resultado do método: " + nome + " " + sobrenome;
+
+    public static String concatenarNomeCompleto(String nome, String sobrenome, String CPF) {
+        return "Nome de usuário:\t" + nome + " " + sobrenome + "\nCPF do usuário:\t\t" + CPF;
+    
     }
-    public static String concatenarNomes2(String nome, String sobrenome){
-        return "Resultado do método utilizando Concat(): " + nome.concat(" ").concat(sobrenome);
-    }
-}
+
+} 
