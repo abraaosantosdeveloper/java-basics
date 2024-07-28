@@ -12,10 +12,11 @@ public class App {
 
         // Operador ternário: <Expressão condicional> ? <Condição Verdadeira> : <Condição falsa>
 
-        int numero = 2;
-        int numero2 = 5;
+        int a, b;
+        a= 4;
+        b=6;
 
-        int soma = numero + numero2;
+        int soma = a + b;
 
         String resultado = (soma > 10) ? "soma é maior que 10" : "Soma é menor que 10";
 
