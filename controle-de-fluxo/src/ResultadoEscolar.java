@@ -12,8 +12,8 @@ public class ResultadoEscolar {
         System.out.println("Digite a segunda nota: ");
         double nota2 = scDouble.nextDouble();
         double media = (nota1 + nota2) / 2;
-        String status = media >= 7 ? "Aprovado" : media >= 5 && media < 7 ? "em recuperação" : "Reprovado";
+        String status = media >= 7 ? "está Aprovado" : media >= 5 && media < 7 ? "deve fazer avaliação complementar" : "está Reprovado";
         
-        System.out.println("O aluno " + nomeAluno + " obteve média " + media + " e portanto está " + status + ".");
+        System.out.println("O aluno " + nomeAluno + " obteve média " + media + " e portanto " + status + ".");
     }
 }
